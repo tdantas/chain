@@ -5,20 +5,6 @@
 
  Create middleware chains like Rack.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'chain'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install chain
-
 ## Usage
 
 **Middlewares** must implement an initialize that will receive the chain and respond_to perform with arity one.
