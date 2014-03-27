@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/tdantas/chain.svg?branch=master)](https://travis-ci.org/tdantas/chain)
+[![Coverage Status](https://coveralls.io/repos/tdantas/chain/badge.png)](https://coveralls.io/r/tdantas/chain)
+
 # Chain
 
  Create middleware chains like Rack.
