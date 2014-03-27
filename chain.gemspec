@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'rspec', '~> 2.14.1'
   gem.add_development_dependency 'rake', '~> 10.2.1'
-  gem.add_development_dependency 'coveralls', '~> 0.7'
+  gem.add_development_dependency 'coveralls', '~> 0.7.0'
 
 end
