@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Chain::VERSION
   gem.authors       = ["Thiago Dantas"]
   gem.email         = ["thiago.teixeira.dantas@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Chain Chain Chain everything}
+  gem.summary       = %q{Chain your code}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -17,8 +17,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'rake'
-
+  gem.add_development_dependency 'rspec', '~> 2.14.1'
+  gem.add_development_dependency 'rake', '~> 10.2.1'
+  gem.add_development_dependency 'coveralls', '~> 0.7'
 
 end
